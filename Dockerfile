@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 LABEL maintainer "Dave Larson <delarson@wustl.edu>"
 
 # Build dependencies
-RUN MANTA_VERSION=1.4.0 \
+RUN MANTA_VERSION=1.5.0 \
     && buildDeps=' \
         gcc \
         g++ \
